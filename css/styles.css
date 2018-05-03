@@ -118,7 +118,7 @@ ul {
     padding: 0;
 }
 
-li {
+.nav li {
     padding: 8px;
     margin-bottom: 7px;
     background-color: #33b5e5;
@@ -128,8 +128,15 @@ li {
     font-size: 110%;
 }
 
-li:hover {
+.nav li:hover {
     background-color: #0099cc;
+}
+
+.info li {
+    padding: 8px;
+    margin-bottom: 7px;
+    text-align: center;
+    font-size: 130%;
 }
 
 a {
@@ -190,16 +197,6 @@ a {
 .prev:hover, .next:hover {
     background-color: rgba(0,0,0,0.8);
 }
-
-.caption__text {
-    color: #f2f2f2;
-    font-size: 15px;
-    padding: 8px 12px;
-    position: absolute;
-    bottom: 8px;
-    width: 100%;
-    text-align: center;
-}
   
 /* Number text (1/3 etc) */
 .number__text {
@@ -245,7 +242,27 @@ a {
     to {opacity: 1}
 }
 
-.title__port {
+.title {
     text-align: center;
     padding-top: 20px;
+}
+
+.title a {
+    color: inherit;
+}
+
+.center {
+    text-align: center;
+}
+
+.icon--social {
+    font-size: 3em;
+}
+
+.icon--social a {
+    color: inherit
+}
+
+.icon {
+    text-decoration: none;    
 }
